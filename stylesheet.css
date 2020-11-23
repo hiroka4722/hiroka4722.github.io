@@ -1,0 +1,861 @@
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+body{
+  margin: 0px;
+  font-family: "メイリオ";
+  letter-spacing: 3px;
+}
+
+
+header{
+  width: 1350px;
+  height: 80px;
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  margin: 0px;
+  background-color: white;
+  background-size: cover;
+}
+
+.header-contents0{
+  height: 50px;
+  margin: 0px;
+  padding: 20px 15px;
+}
+
+.header-logo{
+  float: left;
+}
+.header-img{
+  width: 130px;
+  height: 50px;
+}
+
+.comment{
+ font-size: 10px;
+ margin-top: 20px;
+}
+
+.question{
+  float: right;
+  padding: 10px;
+  background-color: #DA6B64;
+  border-radius: 25px;
+  display: block;
+}
+
+.header-contents2 span{
+  color: white;
+  font-weight: normal;
+}
+
+.container{
+  width: 1350px;
+  text-align: center;
+}
+
+.main1{
+  height: 580px;
+  width: 100%;
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/main.jpg);
+  background-size: cover;
+
+}
+
+.main1-contents{
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 140px;
+  width: 450px;
+  height: auto;
+}
+
+.main1-logo{
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.main1 img{
+  width: 320px;
+  height: 120px;
+}
+
+.main1-logo2{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main2{
+  background-color: #EBB94D;
+  letter-spacing: 3px;
+  padding: 20px;
+}
+.main2-contents{
+  text-align: center;
+  height: 550px;
+}
+
+.text1{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 50px;
+}
+
+.text2{
+  color: #C7254e;
+  font-size: 17px;
+  background-color: white;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.this{
+  color: white;
+  padding: 30px;
+  width: 750px;
+  background-color: #DA6B64;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin: 30px;
+
+}
+
+.main2 ul{
+  margin-top: 20px;
+}
+
+.main2 li{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  display: block;
+  line-height: 60px;
+}
+.link1{
+  display: inline-block;
+}
+
+.btn{
+  color: white;
+  background-color: rgb(24,119,242);
+  padding: 3px 5px;
+  font-size: 11px;
+  border-radius: 4px;
+}
+
+.main3{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg);
+  background-size: 100%;
+  height: 650px;
+}
+
+.main3-contents{
+  padding: 25px;
+}
+
+.main3-logo::before,.main3-logo::after{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.main3-logo::before{
+  border-top: 5px solid #EBB94D;
+  border-left: 5px solid #EBB94D;
+  top: 0;
+  left: 0;
+}
+
+.main3-logo::after{
+  border-bottom: 5px solid #EBB94D;
+  border-right: 5px solid #EBB94D;
+  bottom: 0;
+  right: 0;
+}
+
+.main3-logo{
+  position: relative;
+  margin: 50px auto;
+  width: 800px;
+  box-sizing: border-box;
+}
+
+
+.main3-logo p{
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.main3-text{
+  margin: 35px;
+}
+
+.main3-text span{
+  font-weight: bold;
+  border-bottom: 5px solid #EBB94D;
+  padding: 0px;
+}
+
+.about{
+  display: inline-block;
+  color: white;
+  background-color: #EBB94D;
+  font-size: 13px;
+  border-radius: 40px;
+  margin-top: 130px;
+  padding: 30px 10px;
+}
+
+.main4-contents{
+  background-color: #FEF5E0;
+  background-size: cover;
+  padding: 90px 30px;
+}
+
+.main4-logo{
+  font-size: 26px;
+  font-weight: bold;
+  padding: 20px 50px;
+}
+
+.main4-text1{
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.main4-content{
+  padding: 20px;
+  border: 2px solid #EBB94D;
+  background-size: cover;
+  background-color: white;
+  height: 220px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.main4-text2{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.skill{
+  display: inline-block;
+  font-size: 13px;
+}
+
+.main5-contents{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbg.jpg);
+  background-size: cover;
+  padding-top: 50px;
+  height: 400px;
+  color: white
+}
+
+.main5-logo{
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0px;
+
+}
+
+.steps{
+  display: inline-block;
+  background-color:  white;
+  border-radius: 5px;
+  width: 23%;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.step{
+  background-color: #EBB94D;
+  border-radius: 5px;
+}
+
+.step-text1{
+  margin-top: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0px;
+}
+.step-text2{
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.main6-contents{
+  background-color: #016EA9;
+  color: white;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.main6-contents span{
+  color: #EBB94D;
+}
+
+.main7-logo{
+  font-size: 26px;
+  padding: 40px 0px 20px 0px;
+  font-weight: bold;
+}
+
+.main7-logo span{
+  font-size: 16px;
+}
+
+.main7-image img{
+  display: inline-block;
+  margin: 20px;
+  height: 180px;
+}
+
+.main7-text{
+  font-weight: bold;
+  margin: 40px;
+}
+
+.main8-contents{
+  background-color: #FEF5E0;
+  padding: 30px;
+}
+
+.main8-logo{
+  font-weight: bold;
+  padding: 30px;
+  margin-top: 30px;
+  line-height: 13px;
+}
+
+.main8-logo1{
+  font-size: 16px;
+}
+
+.main8-logo::before,.main8-logo::after{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.main8-logo::before{
+  border-top: 5px solid #EBB94D;
+  border-left: 5px solid #EBB94D;
+  top: 0;
+  left: 0;
+}
+
+.main8-logo::after{
+  border-bottom: 5px solid #EBB94D;
+  border-right: 5px solid #EBB94D;
+  bottom: 0;
+  right: 0;
+}
+
+.main8-logo{
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  box-sizing: border-box;
+}
+
+
+.main8-logo2{
+  font-size: 26px;
+}
+
+.main8-content{
+  display: inline-block;
+  margin: auto;
+}
+
+.main8-merit{
+  width: 270px;
+  margin: 20px;
+  float:left;
+  clear: none;
+  font-size: 13px;
+}
+
+.merit-logo{
+  font-size: 16px;
+  font-weight: bold;
+  color: #EBB94D;
+}
+.merit-text{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.main8-content2{
+  height: 200px;
+  padding: 30px;
+  margin: 30px 60px;
+  background-color: white;
+  border: 3px solid #EBB94D;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.main8 span{
+  font-size: 26px;
+  color: #EBB94D;
+}
+
+.main8-text{
+  font-size: 13px;
+}
+
+.main9-contents{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/teacherbg.jpg);
+  background-size: cover;
+  padding: 80px 80px 60px 80px;
+  color: white;
+}
+
+.main9-member{
+  font-size: 28px;
+}
+.member{
+}
+
+.member-image{
+  position: relative;
+  top: 30px;
+  border-radius: 100px;
+}
+
+.member-text{
+  border: 2px solid white;
+  padding: 30px;
+}
+
+.member{
+  display: inline-block;
+  width: 400px;
+  margin: 30px;
+}
+
+.main10{
+  background-color: #EBB94D;
+  color: white;
+  padding: 30px;
+}
+
+.QA{
+  background-color: white;
+  color: #EBB94D;
+  border-radius: 50%;
+  line-height: 65px;
+  height: 65px;
+  width: 65px;
+  text-align: center;
+  display: inline-block;
+}
+
+.main10question::before,.main10question::after{
+  content: '';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.main10question::before{
+  border-top: 4px solid white;
+  border-left: 4px solid  white;
+  top: 0;
+  left: 0;
+}
+
+.main10question::after{
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+  bottom: 0;
+  right:0;
+}
+
+.main10question{
+  margin: 0 auto;
+  position: relative;
+  width: 700px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.triangle{
+  width: 0px;
+  border-top: 30px solid #EBB94D;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  margin: 0 auto;
+}
+
+.message img{
+  width: 200px;
+  height: 200px;
+  float: left;
+  border: 4px solid #EBB94D;
+  margin-right: 20px;
+}
+
+.message-text{
+  width: 650px;
+  height:200px;
+  padding: 30px;
+  text-align: left;
+}
+
+.message-text p{
+  font-family:serif;
+  font-style: italic;
+}
+
+.main12-contents{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/classbg.jpg);
+  background-size: cover;
+  padding: 60px;
+}
+
+
+.main12-content ul{
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+  background-color: white;
+  padding: 0px;
+  border: 2px solid #016EA9;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.main12-content li{
+  padding: 17px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.main12li{
+  background-color: #016EA9;
+  color: white;
+}
+
+.main13{
+  background-color: #016EA9;
+  color: white;
+  padding: 25px;
+  margin: 0px;
+}
+
+.main14{
+  padding: 20px;
+}
+
+.main14-content{
+  display: inline-block;
+  background-color: #FEF5E0;
+  border-radius: 10px;
+  margin: 0px;
+  width: 1200px;
+  padding:10px;
+  vertical-align: bottom;
+}
+
+.main14-content::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.main14-image{
+  float: left;
+  padding: 30px 20px 0px 20px;
+  margin: 0px;
+  width: 200px;
+}
+
+.main14-text{
+  float: left;
+  text-align: left;
+  width: 800px;
+  margin: 0px;
+  padding: 20px;
+}
+
+.border1{
+  height: 30px;
+  width: 800px;
+  margin: 0 auto;
+  border-left: 2px solid #EBB94D;
+}
+
+.border2{
+  height: 30px;
+  width: 800px;
+  margin: 0 auto;
+  border: 2px solid #EBB94D;
+  border-bottom: transparent;
+  border-left: transparent;
+}
+
+.border3{
+  height: 30px;
+  width: 800px;
+  margin: 0 auto;
+  border-right: 2px solid #EBB94D;
+}
+
+.border4{
+  height: 30px;
+  width: 800px;
+  margin: 0 auto;
+  border: 2px solid #EBB94D;
+  border-bottom: transparent;
+  border-right: transparent;
+}
+
+
+.main15{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/bangkokbg.jpg);
+  color: white;
+  font-weight: bold;
+  padding: 60px;
+  background-size: cover;
+  text-align: left;
+}
+
+.main15 ul{
+  line-height: 40px;
+  padding: 10px 0px;
+}
+
+.main16{
+  background-color: #F7C23C;
+  margin: 0px;
+  padding: 50px;
+  font-weight: bold;
+}
+
+.main16 span{
+  color: white;
+}
+
+.main16logo{
+  font-size: 25px;
+  width: 400px;
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  background-color:  #F7C23C;
+}
+
+.services{
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.service{
+  height: 230px;
+  width: 230px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 25px;
+}
+
+
+.servicelogo{
+  font-size: 25px;
+  font-weight: normal;
+  color: #F7C23C;
+}
+
+
+.main17{
+  color: white;
+  font-weight: bold;
+  padding: 50px;
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/specialdetail.jpg);
+  background-size: cover;
+}
+
+.main17-contents p{
+  padding: 20px;
+}
+
+.main17comment::before,.main17comment::after{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.main17comment::before{
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  top: 0;
+  left: 0;
+}
+
+.main17comment::after{
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  bottom: 0;
+  right: 0;
+}
+
+.main17comment{
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  box-sizing: border-box;
+}
+
+.main18{
+  padding: 50px;
+}
+
+
+.main18 img{
+  display: inline-block;
+  width: 250px;
+  height: auto;
+  vertical-align: top;
+  padding: 20px;
+  margin: 20px;
+}
+
+.main18-content{
+  text-align: left;
+  font-size: 15px;
+  display: inline-block;
+  width: 65%;
+  vertical-align: top;
+  margin: 20px;
+}
+
+.main18-content ul{
+  padding: 0px;
+}
+
+.main19{
+  background-color: #F7C23C;
+  padding: 10px;
+  padding-bottom: 60px;
+}
+
+.form{
+  width: 1000px;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form1{
+  height: 50px;
+  margin: 16px;
+}
+
+.form2{
+  height: 100px;
+  margin: 30px;
+  font-size: 1.2em;
+  color: gray;
+}
+
+.form3{
+  background-color: #DA6B64;
+  border-radius: 25px;
+  height: 50px;
+  width: 1020px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 20px;
+  font-weight: bold;
+}
+
+.accodion-container{
+  position: relative;
+  width: 1000px;
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.accodion-title{
+  border: 1px solid #E5E5E5;
+  padding-left: 25px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.accodion-title h4{
+  border-bottom: 2px solid transparent;
+  display: inline-block;
+  line-height: 20px;
+}
+
+.accodion-title h4:hover{
+  border-bottom: 2px solid black;
+}
+
+.accodion-container i{
+  color: blue;
+}
+
+.accodion-content{
+  padding-left: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid #F3F3F3;
+  margin-bottom: 3px;
+}
+
+.footer{
+  background-color: #ECECEC;
+  padding: 30px;
+  font-size: 10px;
+  line-height: 10px;
+}
+.footer a{
+  background-color: blue;
+  color: white;
+  font-size: 13px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px;
+  line-height: 15px;
+}
